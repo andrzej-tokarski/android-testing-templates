@@ -67,6 +67,7 @@ android {
 
 dependencies {
     // App's dependencies, including test
+    compile 'com.google.android.gms:play-services-base:7.5.0'
     compile 'com.android.support:appcompat-v7:22.2.0'
 
     compile project(':module-plain-java') // Optional module for non-Android code
